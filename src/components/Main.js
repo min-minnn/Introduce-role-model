@@ -26,6 +26,13 @@ const IntroduceWrapper = styled.div`
 const Name = styled.p`
   font-family: 'yg-jalnan';
   font-size: 3rem;
+  margin: 1rem 0;
+`;
+
+const Moto = styled.p`
+  font-family: 'kr-French';
+  font-size: 2.25rem;
+  margin: 0;
 `;
 
 function Main() {
@@ -33,7 +40,8 @@ function Main() {
     <Wrapper>
       <Photo src={masako} />
       <IntroduceWrapper>
-        <Name>Wakamiya Masako</Name>
+        <Name>Wakamiya Masako(82)</Name>
+        <Moto>"Age is just a number."</Moto>
       </IntroduceWrapper>
     </Wrapper>
   )
