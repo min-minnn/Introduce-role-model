@@ -21,7 +21,7 @@ const Photo = styled.img`
 `;
 
 const IntroduceWrapper = styled.div`
-  margin-left: 4rem;
+  margin-left: 5rem;
 `;
 
 const Name = styled.p`
@@ -73,13 +73,14 @@ const ContentWrapper = styled.div`
 `;
 
 const Content = styled.p`
+  font-size: 1.15rem;
   margin-left: 0.375rem;
   margin-bottom: 0.25rem;
   margin-top: 0;
 `;
 
 const ButtonWrapper = styled.div`
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 `;
