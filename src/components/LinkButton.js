@@ -87,12 +87,19 @@ const BookStore = () => {
   window.open('http://book.naver.com/bookdb/book_detail.nhn?bid=14619373', '_blank');
 }
 
+const Scroll = () => {
+  window.scrollTo({
+    top: 1200,
+    behavior: "smooth"
+  });
+}
+
 function LinkButton() {
   return (
     <>
       <Video onClick={OpenVideo}>Video</Video>
       <Book onClick={BookStore}>Book</Book>
-      <Career>Career</Career>
+      <Career onClick={Scroll}>Life Story</Career>
     </>
   )
 }
