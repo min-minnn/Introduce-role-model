@@ -53,12 +53,12 @@ const Book = styled.button`
   }
 `;
 
-const Achievement = styled.button`
+const Career = styled.button`
   width: 8.75rem;
   height: 8.75rem;
   border-radius: 50%;
   font-family: 'yg-jalnan';
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: bolder;
   background-color: #A9A9F5;
   box-shadow: 0 0 2rem -15px black;
@@ -79,12 +79,20 @@ const Achievement = styled.button`
   }
 `;
 
+const OpenVideo = () => {
+  window.open('https://youtu.be/Bu3Csb3uRmw', '_blank');
+}
+
+const BookStore = () => {
+  window.open('http://book.naver.com/bookdb/book_detail.nhn?bid=14619373', '_blank');
+}
+
 function LinkButton() {
   return (
     <>
-      <Video>Video</Video>
-      <Book>Book</Book>
-      <Achievement>Achievement</Achievement>
+      <Video onClick={OpenVideo}>Video</Video>
+      <Book onClick={BookStore}>Book</Book>
+      <Career>Career</Career>
     </>
   )
 }
