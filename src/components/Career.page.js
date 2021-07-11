@@ -6,7 +6,7 @@ import App from '../images/hinadan.png'
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 280vh;
+  height: 300vh;
   margin-top: 23rem;
 `;
 
@@ -72,6 +72,7 @@ const Pointer = styled.img`
 `;
 
 const ScdWrapper = styled.div`
+  height: 100vh;
   margin-top: 23rem;
   margin-left: 8rem;
 `;
@@ -87,7 +88,7 @@ const AppImg = styled.img`
 
 const ThWrappter = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,7 +127,7 @@ function CareerPage() {
         <AppImg src={App} />
       </ScdWrapper>
       <ThWrappter>
-        <ThContent>Hinathan is easy to use. </ThContent>
+        <ThContent>'Hinathan' is easy to use. </ThContent>
         <ThContent>Thanks to this, it currently has more than 80,000 users, </ThContent>
         <ThContent>with the majority giving it a five-star rating.</ThContent>
       </ThWrappter>
